@@ -54,9 +54,9 @@ Now Let's install the bootloader
 esptool --chip esp32c6 --port COM5 write_flash 0x0 adafruit-circuitpython-espressif_esp32c6_devkitc_1_n8-pt_BR-9.1.0.bin
 ```
 
-Using [Thonny](https://thonny.org) IDE
+Install [Thonny](https://thonny.org) IDE
 
-Select `Circuit Python (generic)`
+Go in the `Tools> Options > Interpreter` and select `Circuit Python (generic)`
 
 After doing the basic setup, change the port to `ESP32C6` Type C USB with the `USB JTAG/serial debug unit` option and start programming :)
 
